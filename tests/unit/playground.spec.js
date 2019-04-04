@@ -10,7 +10,19 @@ describe( 'Playground Component', () => {
   })
 
   it( 'has a router-link to home', () => {
-    expect( wrapper.find( RouterLinkStub ).props().to ).toBe( '/' )  
+    expect( wrapper.find( { ref: 'home' } ).props().to ).toBe( '/' )
   })
 
+  it( 'has a router-link to about', () => {
+    expect( wrapper.find( { ref: 'about' } ).props().to ).toBe( '/about' )
+  })
+  
+  it( 'has a router-link to counter', () => {
+    expect( wrapper.find( { ref: 'counter'} ).props().to ).toBe( '/counter' )
+  })
+  
+  it( 'has a router-link to games', () => {
+    expect( wrapper.find( { ref: 'games' } ).props().to ).toBe( '/games' )
+  })
+  
 })
