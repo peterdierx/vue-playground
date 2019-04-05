@@ -5,6 +5,7 @@
       <router-link to='/about'   ref='about'   active-class='is-active' tag='li'><a>About</a></router-link>
       <router-link to='/counter' ref='counter' active-class='is-active' tag='li'><a>Counter</a></router-link>
       <router-link to='/games'   ref='games'   active-class='is-active' tag='li'><a>Games</a></router-link>
+      <router-link to='/todos'   ref='todos'   active-class='is-active' tag='li'><a>Todos</a></router-link>
     </ul>
   </div>
 </template>
