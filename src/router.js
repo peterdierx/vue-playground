@@ -7,10 +7,12 @@ import Home     from '@/views/Home'
 import About    from '@/views/About'
 import Games    from '@/views/Games'
 import TodoList from '@/views/TodoList'
+import VueEco   from '@/views/VueEco'
 
 // COMPONENTS
-import Counter  from '@/components/Counter'
-import GameShow from '@/components/GameShow'
+import Counter    from '@/components/Counter'
+import GameShow   from '@/components/GameShow'
+import VueEcoShow from '@/components/VueEcoShow'
 
 Vue.use( Router )
 
@@ -24,6 +26,16 @@ export default new Router({
     { path: '/counter',  name: 'counter', component: Counter },
     { path: '/games',    name: 'games',   component: Games },
     { path: '/game/:id', name: 'show',    component: GameShow, props: true },
-    { path: '/todos',    name: 'todos',   component: TodoList }
+    { path: '/todos',    name: 'todos',   component: TodoList },
+    { path: '/ecovue',   name: 'ecovue',  component: VueEco },
+    {
+      name: 'namedview',
+      path: '/namedview/:id',
+      components: {
+        default:   VueEco,
+        namedview: VueEcoShow
+      },
+      props: { namedview: true }
+    }
   ]
 })

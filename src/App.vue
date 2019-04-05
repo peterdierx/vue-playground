@@ -3,6 +3,7 @@
     <div class='container'>
       <Playground v-if="$route.name !== 'home'"/>
       <router-view/>
+      <router-view name='namedview'></router-view>
     </div>
   </section>
 </template>
