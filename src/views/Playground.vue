@@ -8,6 +8,7 @@
       <router-link to='/todos'    ref='todos'    active-class='is-active' tag='li'><a>Todos</a></router-link>
       <router-link to='/ecovue'   ref='ecovue'   active-class='is-active' tag='li'><a>Named View</a></router-link>
       <router-link to='/watchers' ref='watchers' active-class='is-active' tag='li'><a>Watchers</a></router-link>
+      <router-link to='/props'    ref='props'    active-class='is-active' tag='li'><a>Props</a></router-link>
     </ul>
   </div>
 </template>
