@@ -13,6 +13,8 @@ import VueEco   from '@/views/VueEco'
 import Counter    from '@/components/Counter'
 import GameShow   from '@/components/GameShow'
 import VueEcoShow from '@/components/VueEcoShow'
+import Watchers   from '@/components/Watchers'
+
 
 Vue.use( Router )
 
@@ -21,13 +23,14 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-    { path: '/',         name: 'home',    component: Home },
-    { path: '/about',    name: 'about',   component: About },
-    { path: '/counter',  name: 'counter', component: Counter },
-    { path: '/games',    name: 'games',   component: Games },
-    { path: '/game/:id', name: 'show',    component: GameShow, props: true },
-    { path: '/todos',    name: 'todos',   component: TodoList },
-    { path: '/ecovue',   name: 'ecovue',  component: VueEco },
+    { path: '/',         name: 'home',     component: Home },
+    { path: '/about',    name: 'about',    component: About },
+    { path: '/counter',  name: 'counter',  component: Counter },
+    { path: '/games',    name: 'games',    component: Games },
+    { path: '/game/:id', name: 'show',     component: GameShow, props: true },
+    { path: '/todos',    name: 'todos',    component: TodoList },
+    { path: '/ecovue',   name: 'ecovue',   component: VueEco },
+    { path: '/watchers', name: 'watchers', component: Watchers },
     {
       name: 'namedview',
       path: '/namedview/:id',
