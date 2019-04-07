@@ -9,6 +9,7 @@ import Games    from '@/views/Games'
 import TodoList from '@/views/TodoList'
 import VueEco   from '@/views/VueEco'
 import Props    from '@/views/Props'
+import Card     from '@/views/Card'
 
 // COMPONENTS
 import Counter    from '@/components/Counter'
@@ -32,6 +33,7 @@ export default new Router({
     { path: '/ecovue',   name: 'ecovue',   component: VueEco },
     { path: '/watchers', name: 'watchers', component: Watchers },
     { path: '/props',    name: 'props',    component: Props },
+    { path: '/card',     name: 'card',     component: Card },
     {
       name: 'namedview',
       path: '/namedview/:id',
