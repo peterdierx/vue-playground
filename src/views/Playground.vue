@@ -10,6 +10,7 @@
       <router-link to='/watchers' ref='watchers' active-class='is-active' tag='li'><a>Watchers</a></router-link>
       <router-link to='/props'    ref='props'    active-class='is-active' tag='li'><a>Props</a></router-link>
       <router-link to='/card'     ref='card'     active-class='is-active' tag='li'><a>Card</a></router-link>
+      <router-link to='/jokes'    ref='jokes'    active-class='is-active' tag='li'><a>Jokes</a></router-link>
     </ul>
   </div>
 </template>

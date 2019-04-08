@@ -16,6 +16,7 @@ import Counter    from '@/components/Counter'
 import GameShow   from '@/components/GameShow'
 import VueEcoShow from '@/components/VueEcoShow'
 import Watchers   from '@/components/Watchers'
+import Joke       from '@/components/Joke'
 
 Vue.use( Router )
 
@@ -34,6 +35,7 @@ export default new Router({
     { path: '/watchers', name: 'watchers', component: Watchers },
     { path: '/props',    name: 'props',    component: Props },
     { path: '/card',     name: 'card',     component: Card },
+    { path: '/jokes',    name: 'jokes',    component: Joke },
     {
       name: 'namedview',
       path: '/namedview/:id',
