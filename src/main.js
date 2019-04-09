@@ -11,7 +11,8 @@ Vue.config.productionTip = false
 import 'bulma/css/bulma.css'
 
 // UTILS
-import filters from '@/filters'
+import filters    from '@/filters'
+import directives from '@/directives'
 
 // APP
 new Vue({
