@@ -15,6 +15,7 @@
       <router-link to='/filters'    ref='filters'    active-class='is-active' tag='li'><a>Filters</a></router-link>
       <router-link to='/directives' ref='directives' active-class='is-active' tag='li'><a>Directives</a></router-link>
       <router-link to='/router'     ref='router'     active-class='is-active' tag='li'><a>Router</a></router-link>
+      <router-link to='/modal'      ref='modal'      active-class='is-active' tag='li'><a>Modal</a></router-link>
     </ul>
   </div>
 </template>
