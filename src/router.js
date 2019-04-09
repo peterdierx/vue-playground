@@ -18,6 +18,7 @@ import GameShow   from '@/components/GameShow'
 import VueEcoShow from '@/components/VueEcoShow'
 import Watchers   from '@/components/Watchers'
 import Joke       from '@/components/Joke'
+import Filters    from '@/components/Filters'
 
 Vue.use( Router )
 
@@ -38,6 +39,7 @@ export default new Router({
     { path: '/card',     name: 'card',     component: Card },
     { path: '/jokes',    name: 'jokes',    component: Joke },
     { path: '/slots',    name: 'slots',    component: Slots },
+    { path: '/filters',  name: 'filters',  component: Filters },
     {
       name: 'namedview',
       path: '/namedview/:id',

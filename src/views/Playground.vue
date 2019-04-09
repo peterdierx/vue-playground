@@ -12,6 +12,7 @@
       <router-link to='/card'     ref='card'     active-class='is-active' tag='li'><a>Card</a></router-link>
       <router-link to='/jokes'    ref='jokes'    active-class='is-active' tag='li'><a>Jokes</a></router-link>
       <router-link to='/slots'    ref='slots'    active-class='is-active' tag='li'><a>Slots</a></router-link>
+      <router-link to='/filters'  ref='filters'  active-class='is-active' tag='li'><a>Filters</a></router-link>
     </ul>
   </div>
 </template>

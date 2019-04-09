@@ -10,6 +10,9 @@ Vue.config.productionTip = false
 // BULMA
 import 'bulma/css/bulma.css'
 
+// UTILS
+import filters from '@/filters'
+
 // APP
 new Vue({
   router,
