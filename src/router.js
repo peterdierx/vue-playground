@@ -3,14 +3,15 @@ import Vue    from 'vue'
 import Router from 'vue-router'
 
 // VIEWS
-import Home     from '@/views/Home'
-import About    from '@/views/About'
-import Games    from '@/views/Games'
-import TodoList from '@/views/TodoList'
-import VueEco   from '@/views/VueEco'
-import Props    from '@/views/Props'
-import Card     from '@/views/Card'
-import Slots    from '@/views/Slots'
+import Home         from '@/views/Home'
+import About        from '@/views/About'
+import Games        from '@/views/Games'
+import TodoList     from '@/views/TodoList'
+import VueEco       from '@/views/VueEco'
+import Props        from '@/views/Props'
+import Card         from '@/views/Card'
+import Slots        from '@/views/Slots'
+import SimpleRouter from '@/views/SimpleRouter'
 
 // COMPONENTS
 import Counter    from '@/components/Counter'
@@ -42,6 +43,7 @@ export default new Router({
     { path: '/slots',      name: 'slots',    component: Slots },
     { path: '/filters',    name: 'filters',  component: Filters },
     { path: '/directives', name: 'direct',   component: Directive },
+    { path: '/router',     name: 'router',   component: SimpleRouter },
     {
       name: 'namedview',
       path: '/namedview/:id',
