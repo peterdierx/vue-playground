@@ -13,6 +13,7 @@ import Card         from '@/views/Card'
 import Slots        from '@/views/Slots'
 import SimpleRouter from '@/views/SimpleRouter'
 import ModalShow    from '@/views/ModalShow'
+import Vuex         from '@/views/Vuex'
 
 // COMPONENTS
 import Counter    from '@/components/Counter'
@@ -46,6 +47,7 @@ export default new Router({
     { path: '/directives', name: 'direct',   component: Directive },
     { path: '/router',     name: 'router',   component: SimpleRouter },
     { path: '/modal',      name: 'modal',    component: ModalShow },
+    { path: '/vuex',       name: 'vuex',     component: Vuex },
     {
       name: 'namedview',
       path: '/namedview/:id',

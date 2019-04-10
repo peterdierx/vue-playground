@@ -62,6 +62,11 @@ describe( 'Playground Component', () => {
   })
 
   it( 'has a router-link to router', () => {
-    expect( wrapper.find( { ref: 'router' } ).props().to ).toBe( '/directives' )
+    expect( wrapper.find( { ref: 'router' } ).props().to ).toBe( '/router' )
   })
+
+  it( 'has a router-link to modal', () => {
+    expect( wrapper.find( { ref: 'modal' } ).props().to ).toBe( '/modal' )
+  })
+
 })
