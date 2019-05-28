@@ -1,6 +1,6 @@
 # Vue Playground
 
-![](https://github.com/peterdierx/vue-playground/screenshot.png)
+![](screenshot.png)
 
 ## Setup
 ```sh
