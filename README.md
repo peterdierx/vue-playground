@@ -1,13 +1,11 @@
-# Vue Playground
+<p align='center'><img src='screenshot.png'></p>
 
-![](screenshot.png)
-
-## Setup
+### Setup
 ```sh
 yarn install
 ```
 
-## Start
+### Start
 ```sh
 yarn serve
 ```
