@@ -11,7 +11,7 @@ exports[`About Component renders about view 1`] = `
   </h5>
    
   <p>
-    Just a sandbox to play with Vue, Vue Router, Vuex and Bulma.
+    Sandbox to play with Vue, Vue Router, Vuex and Bulma.
   </p>
 </div>
 `;
