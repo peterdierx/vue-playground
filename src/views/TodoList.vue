@@ -17,7 +17,8 @@
           { id: 1, title: 'Get Groceries',   completed: false },
           { id: 2, title: 'Walk the Dog',    completed: false },
           { id: 3, title: 'Go Cycling',      completed: false },
-          { id: 4, title: 'Wash the Dishes', completed: false }
+          { id: 4, title: 'Wash the Dishes', completed: false },
+          { id: 5, title: 'Maw the lawn',    completed: false }
         ]
       }
     },
