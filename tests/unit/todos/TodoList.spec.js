@@ -8,9 +8,9 @@ describe( 'TodoList Component', () => {
     expect( wrapper.html() ).toContain( '<h5 class="title is-5">Todos</h5>' )
   })
   
-  it( 'renders 4 todos', () => {
+  it( 'renders 5 todos', () => {
     const wrapper = mount( TodoList )
-    expect( wrapper.findAll( 'p' ) ).toHaveLength( 4 )
+    expect( wrapper.findAll( 'p' ) ).toHaveLength( 5 )
   })
   
 })
